@@ -17,7 +17,7 @@
 1. Open your Grafana instance and log in with the necessary credentials.
 2. Navigate to **Alerting > Manage alert riles** to manage rules.
 3. Select **New alert rule** (depending on the Grafana version) and configure the rule settings.
-4. In the JSON editor, paste the contents from `amq-consumer-evaluation-group.json`.
+4. In the Export option, paste the contents from `amq-consumer-evaluation-group.json`.
 5. Save the rule.
 
 ### Step 3: Import Grafana Dashboard (Link-2 JSON)
