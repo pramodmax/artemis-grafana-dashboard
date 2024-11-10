@@ -10,13 +10,13 @@
 1. Go to [Link-1](https://github.com/pramodmax/artemis-grafana-dashboard/blob/main/amq-consumer-evaluation-group.json) for the Grafana rule and [Link-2](https://github.com/pramodmax/artemis-grafana-dashboard/blob/main/Red%20Hat%20AMQ%20Broker%20-%20On-prem.json) for the Grafana dashboard.
 2. Click on the **Raw** button to view the raw JSON content.
 3. Copy the JSON content and save it to your local machine as:
-   - `amq-consumer-evaluation-group.json` for Link-1
-   - `Red-Hat-AMQ-Broker-On-prem.json` for Link-2
+   - `amq-consumer-evaluation-group.json`
+   - `Red-Hat-AMQ-Broker-On-prem.json`
 
 ### Step 2: Import Grafana Rule (Link-1 JSON)
 1. Open your Grafana instance and log in with the necessary credentials.
-2. Navigate to **Alerting > Contact points** or **Alerting > Notification policies** to manage rules.
-3. Select **New contact point** or **New policy** (depending on the Grafana version) and configure the rule settings.
+2. Navigate to **Alerting > Manage alert riles** to manage rules.
+3. Select **New alert rule** (depending on the Grafana version) and configure the rule settings.
 4. In the JSON editor, paste the contents from `amq-consumer-evaluation-group.json`.
 5. Save the rule.
 
